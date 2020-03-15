@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-->
     <title>GifTastic</title>
+    <!--CDN references-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
+<!--Empty Area to place buttons-->
 
-    
+    <div id="buttonArea"></div>
+
+<!--form to enter new buttons-->
+
+<form id= "searchForm">
+    <label for="animalName">Add an Animal</label><br>
+    <input type="text" id="animalName" name=""><br>
+    <input type="submit" value="Submit">
+
+</form>
+
+<!--place to enter gifs-->
+
+<div id="gifArea"></div>
+
+<!--link for external js-->
+<script src="assets/javascript/gif.js"></script>
     
 </body>
 </html>
